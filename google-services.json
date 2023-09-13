@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "144542365117",
+    "project_id": "teste-4a793",
+    "storage_bucket": "teste-4a793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144542365117:android:ab8c7645a81c138e110ed4",
+        "android_client_info": {
+          "package_name": "com.hentfy.app_testes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144542365117-7v6gm5c9eck6retr3ir71le3s720i4gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDWxv3pn-ZR7Bjttrlpdy_2KceajcG3R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144542365117-7v6gm5c9eck6retr3ir71le3s720i4gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
