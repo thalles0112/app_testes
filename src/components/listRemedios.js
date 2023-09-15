@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, StyleSheet, Alert } from 'react-native';
 
 
 
-export default function Lista(data) {
-    const [ddata, setData] = useState(data.data)
+export default function Lista({data}) {
     
-    useEffect(()=>{
-        setData(data.data)
-    },[data])
   const renderItem = ({ item }) => (
     <View style={styles.item}>
         <View style={styles.itemData}>
@@ -26,25 +21,16 @@ export default function Lista(data) {
     </View>
   );
 
-  if (ddata){
     return (
       <View style={styles.container}>
         <FlatList
-          data={ddata}
+          data={data}
+          inverted={true}
           renderItem={renderItem}
           keyExtractor={item => item.id}
         />
       </View>
-    );
-  }
-
-  else{
-    return(
-      <View style={styles.container}>
-       
-      </View>
     )
-  }
   
 }
 
